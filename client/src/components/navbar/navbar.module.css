@@ -1,0 +1,73 @@
+.container {
+  background-color: #5a5c61;
+  padding: 10px 10px;
+  height: 90px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  transition: opacity 0.2s; /* Add transition for smooth opacity change */
+}
+
+.left a:hover {
+  opacity: 0.9; /* Change the opacity on hover */
+}
+
+.center {
+  list-style: none;
+  display: flex;
+}
+
+.listItem {
+  margin: 0 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  transition: opacity 0.3s; /* Add transition for smooth opacity change */
+}
+
+.listItem:hover {
+  opacity: 0.09; /* Change the opacity on hover */
+}
+
+.right img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  border-radius: 200px;
+}
+
+.modal {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background-color: #fff;
+  padding: 9px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.modal a {
+  text-decoration: none;
+  color: #0c0c0c;
+  margin-bottom: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  transition: opacity 0.3s; /* Add transition for smooth opacity change */
+}
+
+.modal a:hover {
+  opacity: 0.8; /* Change the opacity on hover */
+}
